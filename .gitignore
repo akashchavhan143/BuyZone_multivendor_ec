@@ -1,0 +1,15 @@
+# Frontend
+multiveneder_ecommerce_frontend/node_modules/
+multiveneder_ecommerce_frontend/.env
+
+# Backend
+multiveneder_ecommerce_backend/target/
+multiveneder_ecommerce_backend/.env
+multiveneder_ecommerce_backend/.settings
+
+
+# General
+*.log
+.idea/
+.vscode/
+.DS_Store

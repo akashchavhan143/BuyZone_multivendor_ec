@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #86248b;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar.sticky-top {
+  z-index: 1030; /* Ensure it's higher than other elements */
+}
+
+/* my css */
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 9/2;
+}
+
+.hover-effect:hover {
+  transform: scale(1.1); /* Slightly enlarge the card */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow to pop up */
+  z-index: 1; /* Ensure the hovered card stays above other elements */
+}
+
+.card-img img {
+  object-fit: scale-down;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1/1;
+  margin: 0;
+}
+
+.card-im img {
+  object-fit: cover;
+  width: 100%;
+  border-radius: 50%;
+  height: auto;
+  aspect-ratio: 1/1;
+}
+
+.card-sh {
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 5px;
+}
+
+.btn-cust {
+  background-color: #5c4d8f; /* Default background color */
+  color: white; /* Text color */
+  transition: background-color 0.3s; /* Smooth transition for the background color */
+}
+
+.btn-cust:hover {
+  background-color: #4e3a75; /* Darker color on hover */
+}
+
+.bg-my {
+  background-color: #36294f;
+}
+
+input {
+  border: 10px solid #5c4d8f;
+  border-radius: 4px; /* Optional, to round the corners slightly */
+  padding: 8px; /* Optional, to add some padding */
+}
+
+.hover-effect1 {
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-effect1:hover {
+  transform: scale(1.04);
+  background-color: #ecebecc1; /* very light purple */
+
+  z-index: 1;
+}
+.bg-dark1 {
+  background-color: #172337;
+}
