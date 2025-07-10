@@ -81,3 +81,20 @@ Welcome to **BuyZone** — a full-featured, multi-vendor e-commerce platform bui
 cd buyzone-backend
 ./mvnw spring-boot:run
 ```
+
+## 📫 Contact Me
+
+If you'd like to connect, collaborate, or just say hi, feel free to reach out!
+
+<p align="center">
+  <a href="mailto:akashchavhan512786@gmail.com">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/akashchavhan/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/akashchavhan143" target="_blank">
+    <img src="https://img.shields.io/badge/-GitHub-333?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
